@@ -1,0 +1,55 @@
+body{
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  margin-top: 40px;
+  max-width: 450px;
+
+}
+
+img {
+  width: 400px;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  width: 2000px;
+  height: 300px;
+}
+
+li {
+  display: inline;
+}  
+
+ul>li {
+  list-style: none;
+  float: left;
+}
+  
+#carousel {
+  /*border: solid; */
+  width: 400px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+button {
+  background: none;
+  border: none;
+  font-size: 40px;
+  color: gray;
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+}
