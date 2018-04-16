@@ -26,8 +26,10 @@ $(function () {
     $('#js-leftButton').click(function () { changeSlide() });
     $('#js-rightButton').click(function() { changeSlideRight() }); 
 
+//DO wtyczki jquery Slick 
+    //$('#your-class').slick();
 
-    $('#your-class').slick();
+  
 
 });
 
