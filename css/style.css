@@ -60,3 +60,23 @@ button:focus {
   outline: none;
 }
 
+
+/* Second gallery */
+.container2 {
+ max-width: 1200px;
+ margin: 0 auto;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.owl-theme .owl-nav [class*=owl-]:hover {
+  background: none;
+  transform: scale(1.2);
+}
+
+.owl-nav button span {
+  font-size: 40px;
+  color: #808080; 
+}
